@@ -1,4 +1,8 @@
 body{
-  font-family: 'Dancing Script OT', arial;
-  font-weight: bold;
+  font-family: 'Dancing Script OT';
+  font-size: 20px;
+}
+
+.link{
+  color: white
 }
