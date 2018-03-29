@@ -1,24 +1,120 @@
 
 body{
-  font-family: 'Dancing Script OT';
-  font-size: 16px;
-  background: #02010a;
-  font-size: 14pt;
-  color: white;
-  margin: 0;
-  }
-
-
-
-.link{
-  color: white
+font-family: 'Dancing Script OT';
+background: #02010a;
+font-size: 20px;
+color: white;
+display: flex;
+justify-content: center;
 }
 
+  .imagenes{
+  background-color: #82c3a6;
+  margin: inherit;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
+  #pagina1{
+  	width: 900px;
+  	margin: 0 auto;
+    min-height: 200px;
+  }
 
-header{
-  padding: 15px 0;
+.link{
+  color: white;
+  }
+
+  header{
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
   background: #5b7989;
   text-shadow: 2px 2px #02010a;
   border-radius: 10px 10px 0 0;
   }
+
+  #menu{
+text-align: right;
+font-size: 19px;
+margin-top: 30px;
+margin-right: 20px;
+
+}
+
+
+  .parte2{
+    background: #d5c75f;
+    border: 1px solid;
+    flex: auto;
+    color: black;
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    border-top: #d5c75f;
+    border-bottom: #d5c75f;
+    text-align: center;
+  }
+
+  footer{
+    background: #C6d5c5;
+    border-radius: 10px;
+    color: black;
+    font-size: 19px;
+  }
+
+  footer{
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    background-color: #C6d5c5;
+    padding: 15px 0;
+    color: black;
+    border-radius: 0 0 10px 10px;
+    font-size: 18px;
+  }
+
+  footer .columna{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+
+  .imgPaisajeEcuador{
+    border: 2px solid black;
+    -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
+    filter: drop-shadow(3px 3px 6px #82c3a6);
+    transition: transform 2s;
+  }
+  .imgPaisajeEcuador:hover{
+    transform: rotate(10deg);
+  }
+  .imgPersonas{
+    border: 2px solid black;
+    -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
+    filter: drop-shadow(3px 3px 6px #82c3a6);
+    transition: transform 2s;
+  }
+  .imgPersonas:hover{
+    transform: translate(20px, -5px);
+  }
+
+  @media screen and (max-width: 899px){
+  	#pagina1{
+  		width: 100%;
+  		margin: 0 auto;
+  	}
+
+    @media screen and (min-width: 900px){
+    	#pagina1{
+    		width: 100%;
+    		margin: 0 auto;
+    	}
+
+    #menu, #encabezado{
+      width: 100%;
+      text-align: center;
+    }
