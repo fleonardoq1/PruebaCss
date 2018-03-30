@@ -17,7 +17,7 @@ justify-content: center;
   align-items: center;
   }
 
-  #pagina1{
+  .pagina1{
   	width: 900px;
   	margin: 0 auto;
     min-height: 200px;
@@ -83,33 +83,36 @@ margin-right: 20px;
     padding: 0 15px;
   }
 
-  .imgPaisajeEcuador{
-    border: 2px solid black;
+  #Parte2{
+    border: 2px;
     -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
     filter: drop-shadow(3px 3px 6px #82c3a6);
     transition: transform 2s;
   }
-  .imgPaisajeEcuador:hover{
+
+  #Parte2:hover{
     transform: rotate(10deg);
+
   }
-  .imgPersonas{
-    border: 2px solid black;
+  #Personas{
+    border: 2px;
     -webkit-filter:drop-shadow(3px 3px 6px #82c3a6);
     filter: drop-shadow(3px 3px 6px #82c3a6);
     transition: transform 2s;
   }
-  .imgPersonas:hover{
+
+  #Personas:hover{
     transform: translate(20px, -5px);
   }
 
   @media screen and (max-width: 899px){
-  	#pagina1{
+  	.pagina1{
   		width: 100%;
   		margin: 0 auto;
   	}
 
     @media screen and (min-width: 900px){
-    	#pagina1{
+    	.pagina1{
     		width: 100%;
     		margin: 0 auto;
     	}
